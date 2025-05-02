@@ -1,6 +1,7 @@
 import streamlit as st
 import tempfile
 import os
+os.system("pip install nltk")
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
